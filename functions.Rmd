@@ -1,0 +1,30 @@
+---
+title: "Functions Workshop"
+author: "Javier Patrón"
+date: "`r Sys.Date()`"
+---
+
+
+
+Libraries
+
+```{r}
+library(tidyverse)
+```
+
+
+Load in the data
+```{r}
+
+alegria <- read_csv("/Users/javipatron/Documents/MEDS/Courses/workshops/data/alegria_mooring_ale_20210617.csv")
+
+carpinteria <- read_csv("/Users/javipatron/Documents/MEDS/Courses/workshops/data/carpinteria_mooring_car_20220330.csv")
+
+mohawk <- read_csv("/Users/javipatron/Documents/MEDS/Courses/workshops/data/mohawk_mooring_mko_20220330.csv")
+
+```
+
+
+
+
+
